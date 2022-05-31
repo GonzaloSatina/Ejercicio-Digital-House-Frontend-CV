@@ -1,0 +1,60 @@
+html, body {
+    font-size: Times New Roman;
+    margin: 0;
+}
+.foto-div {
+    display: flex;
+    justify-content: center; 
+    background-color: #E6E6E6;
+}
+.foto {
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+}
+.titulo {
+    color: #005677;
+    background-color: #C4C4C4;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.titulo h1 {
+    margin: 0;
+}
+.seccion {
+    margin-bottom: 2rem;
+}
+.seccion h2{
+    color: #005677;
+    background-color: #C4C4C4;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+    padding-left: 1rem;
+}
+.seccion p{
+margin: 0;
+}
+
+.seccion-datos span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.seccion-academica div, .seccion-experiencia div{
+    display: flex;
+    margin-bottom: 10px;
+}
+.fechas {
+    margin: 0 5px 5px 30px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    background-color: #005677;
+}
+.puesto {
+    margin-left: 50px;
+}
